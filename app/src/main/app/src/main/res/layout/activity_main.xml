@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🕌 صلاتي"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="وضع الصلاة غير مفعل"
+            android:textSize="18sp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnDnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تفعيل صلاحية عدم الإزعاج"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnPrayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تفعيل وضع الصلاة" />
+
+    </LinearLayout>
+
+</ScrollView>
